@@ -1,0 +1,24 @@
+Settlement database: data/settlement.sqlite
+First and last entry: 2026-11-12T05:54:01.180+00:00 to 2026-11-12T14:37:07.895+00:00
+Payouts sent: 32
+  refused by PayPal before sending (INSUFFICIENT_FUNDS): 2
+Payouts collected (PayPal reported SUCCESS): 20
+  sb-43y9ma53877422@personal.example.com: 18
+  sb-vgzm153858978@personal.example.com: 2
+Payouts uncollected (PayPal reports UNCLAIMED): 12
+Payouts returned or cancelled: 0
+Payouts still in flight: 0
+Cancel requests for an uncollected payout refused by PayPal: 12 (BATCH_NOT_COMPLETED 6, INTERNAL_SERVICE_ERROR 6)
+Cancel requests PayPal accepted: 0; payouts sent again to a new contact: 0
+Fee invoices created: 20; sent: 21; paid: 0
+Webhook deliveries verified with PayPal and recorded: 30
+  PAYMENT.PAYOUTS-ITEM.SUCCEEDED: 3 (changed a claim)
+  PAYMENT.PAYOUTS-ITEM.SUCCEEDED: 1 (noted, no change)
+  PAYMENT.PAYOUTS-ITEM.SUCCEEDED: 1 (not one of this server's claims)
+  PAYMENT.PAYOUTS-ITEM.UNCLAIMED: 2 (changed a claim)
+  PAYMENT.PAYOUTS-ITEM.UNCLAIMED: 3 (not one of this server's claims)
+  PAYMENT.PAYOUTSBATCH.PROCESSING: 6 (noted, no change)
+  PAYMENT.PAYOUTSBATCH.PROCESSING: 4 (not one of this server's claims)
+  PAYMENT.PAYOUTSBATCH.SUCCESS: 6 (noted, no change)
+  PAYMENT.PAYOUTSBATCH.SUCCESS: 4 (not one of this server's claims)
+Seeded seller payouts in data/payout_history.json (sent outside Homing's claims): 3 (P9CCZKAJZWZKY UNCLAIMED, 8Q798EY279L28 UNCLAIMED, P9XWZE6S3HJSE UNCLAIMED)

@@ -1,0 +1,128 @@
+{
+  "as_of": "2026-11-04",
+  "source": "California State Controller, unclaimed property records, file dated 2026-11-04",
+  "source_url": "https://www.sco.ca.gov/upd_download_property_records.html",
+  "query": "holder_name like '%PAYPAL%' (PAYPAL 1,088,739, PAYPAL INC 965,245, PAYPAL HOLDINGS INC 50, EBAY INC/PAYPAL INC 1)",
+  "holder_records": 2054035,
+  "holder_total": "125083033.46",
+  "bands": [
+    {
+      "label": "Under $10",
+      "records": 1070847,
+      "total": "2884678.92"
+    },
+    {
+      "label": "$10 to $99",
+      "records": 752671,
+      "total": "24892257.26"
+    },
+    {
+      "label": "$100 to $999",
+      "records": 214589,
+      "total": "52786324.68"
+    },
+    {
+      "label": "$1,000 and over",
+      "records": 15928,
+      "total": "44519772.60"
+    }
+  ],
+  "over_100": {
+    "records": 230517,
+    "total": "97306097.28"
+  },
+  "over_1000": {
+    "records": 15928,
+    "total": "44519772.60"
+  },
+  "venmo": {
+    "records": 4079,
+    "total": "113629.62"
+  },
+  "property_types": [
+    {
+      "code": "MS17",
+      "label": "Miscellaneous intangible property",
+      "records": 1918703,
+      "total": "115698228.41",
+      "share_of_records": 0.9341
+    },
+    {
+      "code": "MS02",
+      "label": "Commissions",
+      "records": 127234,
+      "total": "8136011.78",
+      "share_of_records": 0.0619
+    },
+    {
+      "code": "76",
+      "label": "Other (outside the standard list of codes)",
+      "records": 5172,
+      "total": "733075.49",
+      "share_of_records": 0.0025
+    },
+    {
+      "code": "MS05",
+      "label": "Customer overpayments",
+      "records": 1649,
+      "total": "44247.83",
+      "share_of_records": 0.0008
+    },
+    {
+      "code": "MS04",
+      "label": "Payments for goods and services",
+      "records": 694,
+      "total": "190020.42",
+      "share_of_records": 0.0003
+    },
+    {
+      "code": "CK13",
+      "label": "Vendor checks",
+      "records": 405,
+      "total": "194236.83",
+      "share_of_records": 0.0002
+    },
+    {
+      "code": "MS01",
+      "label": "Wages, payroll, salaries",
+      "records": 122,
+      "total": "47122.95",
+      "share_of_records": 0.0001
+    },
+    {
+      "code": "SC12",
+      "label": "Underlying shares",
+      "records": 48,
+      "total": "39951.87",
+      "share_of_records": 0.0
+    },
+    {
+      "code": "MS11",
+      "label": "Refunds due",
+      "records": 4,
+      "total": "70.00",
+      "share_of_records": 0.0
+    },
+    {
+      "code": "SC13",
+      "label": "Funds for liquidation",
+      "records": 2,
+      "total": "5.94",
+      "share_of_records": 0.0
+    },
+    {
+      "code": "CK07",
+      "label": "Money orders",
+      "records": 1,
+      "total": "39.80",
+      "share_of_records": 0.0
+    },
+    {
+      "code": "SC09",
+      "label": "Cash for fractional shares",
+      "records": 1,
+      "total": "22.14",
+      "share_of_records": 0.0
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+ "explanations": {
+  "B001": {
+   "APPROVED|name=MATCH|date_of_birth=MATCH|address=MATCH|document=MATCH|flags=0": {
+    "en": {
+     "english": "Good news: your claim is approved. The documents you sent match the account, so the money can be paid. Next, please give us the PayPal email address or phone number the money should be sent to.",
+     "language": "en",
+     "text": "Good news: your claim is approved. The documents you sent match the account, so the money can be paid. Next, please give us the PayPal email address or phone number the money should be sent to."
+    },
+    "pl": {
+     "english": "Your claim has been approved. Your documents match the account, so the money can be paid out. Next step: give the email address or phone number linked to PayPal that we should send the money to.",
+     "language": "pl",
+     "text": "Twoje zgłoszenie zostało zatwierdzone. Dokumenty zgadzają się z danymi konta, więc środki można wypłacić. Następny krok: podaj adres e-mail lub numer telefonu powiązany z PayPal, na który mamy wysłać pieniądze."
+    }
+   }
+  },
+  "B002": {
+   "NEEDS_REVIEW|name=MATCH|date_of_birth=MATCH|address=MISMATCH|document=MATCH|flags=0": {
+    "en": {
+     "english": "Your claim needs a review by a person at Larkfield Market before anything is paid. Your name, date of birth and documents all matched, but the address on your utility bill is not the last address on the account. A person at Larkfield Market will look at your claim and decide. It may help to add a document showing your old address in Chicago.",
+     "language": "en",
+     "text": "Your claim needs a review by a person at Larkfield Market before anything is paid. Your name, date of birth and documents all matched, but the address on your utility bill is not the last address on the account. A person at Larkfield Market will look at your claim and decide. It may help to add a document showing your old address in Chicago."
+    }
+   },
+   "NEEDS_REVIEW|name=PARTIAL|date_of_birth=MATCH|address=MISMATCH|document=MATCH|flags=0": {
+    "en": {
+     "english": "Thank you for your claim. A person at Larkfield Market will review it before anything is paid. The documents show the name you use now, but none of them links it to the name on the account, and the address on your bill is not the account's last address. It may help to add a document showing both names, such as a marriage certificate, and a document showing your old address in Chicago.",
+     "language": "en",
+     "text": "Thank you for your claim. A person at Larkfield Market will review it before anything is paid. The documents show the name you use now, but none of them links it to the name on the account, and the address on your bill is not the account's last address. It may help to add a document showing both names, such as a marriage certificate, and a document showing your old address in Chicago."
+    }
+   }
+  },
+  "B006": {
+   "APPROVED|name=MATCH|date_of_birth=MATCH|address=MATCH|document=MATCH|flags=0": {
+    "en": {
+     "english": "Good news: your claim is approved. The documents you sent match the account, so the money can be paid. To get it, please reply with the PayPal email address or phone number you want the money sent to.",
+     "language": "en",
+     "text": "Good news: your claim is approved. The documents you sent match the account, so the money can be paid. To get it, please reply with the PayPal email address or phone number you want the money sent to."
+    }
+   }
+  }
+ },
+ "notices": {
+  "B001": {
+   "body": "Dzień dobry, Panie Tomaszu,\n\nna Pana koncie w Larkfield Market czekają niewypłacone zarobki: 86,40 USD. Ostatnia aktywność na koncie była w czerwcu 2019 r.\n\nMoże je Pan odebrać na stronie Homing: {{HOMING_LINK}}\nWystarczy wyszukać swoje imię i nazwisko oraz dodać zdjęcie dokumentu tożsamości. Pieniądze trafią na Pana konto PayPal. Odbiór nic Pana nie kosztuje.\n\nJeśli nikt ich nie odbierze, być może później będziemy musieli przekazać je państwu jako mienie nieodebrane.\n\nPozdrawiamy serdecznie,\nZespół Larkfield Market",
+   "english": "Hello Tomasz,\n\nThere are unpaid earnings of $86.40 waiting on your Larkfield Market account. The last activity on the account was in June 2019.\n\nYou can claim them on the Homing page: {{HOMING_LINK}}\nJust search for your name and add a photo of an identity document. The money will be paid to your PayPal account. It costs you nothing to claim.\n\nIf nobody claims it, we may later have to hand the money to the state as unclaimed property.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "Your Larkfield Market earnings are waiting: $86.40",
+   "language": "pl",
+   "subject": "Czekają na Pana zarobki z Larkfield Market: 86,40 USD"
+  },
+  "B002": {
+   "body": "Hello Ana,\n\nWe are holding $212.75 in earnings from your Larkfield Market seller account. Your last activity on the account was in February 2018, and the money was never collected.\n\nYou can claim it on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would love for you to get it first.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english": "Hello Ana,\n\nWe are holding $212.75 in earnings from your Larkfield Market seller account. Your last activity on the account was in February 2018, and the money was never collected.\n\nYou can claim it on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would love for you to get it first.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english_subject": "Your Larkfield Market earnings are waiting for you",
+   "language": "en",
+   "subject": "Your Larkfield Market earnings are waiting for you"
+  },
+  "B003": {
+   "body": "Hello Wei Zhang,\n\nYou have $1,240.00 in earnings from Larkfield Market that was never collected. The last activity on your account was in October 2017.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property, so we wanted you to know it is here.\n\nThank you,\nLarkfield Market",
+   "english": "Hello Wei Zhang,\n\nYou have $1,240.00 in earnings from Larkfield Market that was never collected. The last activity on your account was in October 2017.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property, so we wanted you to know it is here.\n\nThank you,\nLarkfield Market",
+   "english_subject": "Earnings waiting for you from Larkfield Market",
+   "language": "en",
+   "subject": "Earnings waiting for you from Larkfield Market"
+  },
+  "B004": {
+   "body": "Hi Wei,\n\nWe're holding $57.10 in earnings for you from your Larkfield Market seller account. The last activity on the account was in March 2020, and the money was never collected.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property. We'd much rather it reached you.\n\nWe will never ask for your password, card number or bank login.\n\nThanks,\nLarkfield Market",
+   "english": "Hi Wei,\n\nWe're holding $57.10 in earnings for you from your Larkfield Market seller account. The last activity on the account was in March 2020, and the money was never collected.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property. We'd much rather it reached you.\n\nWe will never ask for your password, card number or bank login.\n\nThanks,\nLarkfield Market",
+   "english_subject": "Wei Zhang, you have $57.10 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Wei Zhang, you have $57.10 waiting from Larkfield Market"
+  },
+  "B005": {
+   "body": "Chào Nguyen Van An,\n\nTài khoản người bán của bạn tại Larkfield Market có 318,20 USD tiền bán hàng chưa được nhận. Lần hoạt động gần nhất của tài khoản là tháng 12/2018.\n\nBạn có thể nhận số tiền này trên trang Homing: {{HOMING_LINK}}\n\nChỉ cần tìm tên của bạn, thêm ảnh một giấy tờ tùy thân, và tiền sẽ được chuyển vào tài khoản PayPal của bạn. Bạn không phải trả bất kỳ khoản phí nào.\n\nNếu không có ai nhận, khoản tiền này sau này có thể phải được chuyển cho nhà nước dưới dạng tài sản vô chủ.\n\nTrân trọng,\nLarkfield Market",
+   "english": "Hello Nguyen Van An,\n\nYour seller account at Larkfield Market has $318.20 in earnings that were never collected. The last activity on the account was in December 2018.\n\nYou can claim this money on the Homing page: {{HOMING_LINK}}\n\nJust search for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nBest regards,\nLarkfield Market",
+   "english_subject": "You have $318.20 in unclaimed earnings from Larkfield Market",
+   "language": "vi",
+   "subject": "Bạn có $318,20 tiền bán hàng chưa nhận từ Larkfield Market"
+  },
+  "B006": {
+   "body": "Hello J. R. Okafor,\n\nYou have $640.00 in earnings from Larkfield Market that was never collected. The last activity on your account was in July 2016.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property, so we wanted you to hear from us first.\n\nBest wishes,\nLarkfield Market",
+   "english": "Hello J. R. Okafor,\n\nYou have $640.00 in earnings from Larkfield Market that was never collected. The last activity on your account was in July 2016.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property, so we wanted you to hear from us first.\n\nBest wishes,\nLarkfield Market",
+   "english_subject": "You have $640.00 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "You have $640.00 waiting from Larkfield Market"
+  },
+  "B007": {
+   "body": "مرحبًا محمد،\n\nلدينا لك أرباح بقيمة 1,875.30 دولارًا من مبيعاتك على Larkfield Market، ولم يتم استلامها بعد. كان آخر نشاط على حسابك في يناير 2019.\n\nيمكنك استلام المبلغ بسهولة عبر صفحة Homing:\n{{HOMING_LINK}}\n\nابحث عن اسمك، وأضف صورة لوثيقة هوية، وسيتم دفع المبلغ إلى حسابك في PayPal. الخدمة مجانية تمامًا ولا تدفع أي شيء.\n\nإذا لم يطالب أحد بالمبلغ، فقد نضطر لاحقًا إلى تسليمه إلى الدولة كملكية غير مطالَب بها.\n\nمع تحياتنا،\nفريق Larkfield Market",
+   "english": "Hello Mohammed,\n\nWe are holding $1,875.30 in earnings from your sales on Larkfield Market that were never collected. The last activity on your account was in January 2019.\n\nYou can claim the money on the Homing page:\n{{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "You have $1,875.30 in earnings waiting at Larkfield Market",
+   "language": "ar",
+   "subject": "لديك أرباح بقيمة 1,875.30 دولارًا في انتظارك على Larkfield Market"
+  },
+  "B008": {
+   "body": "Hallo Herr Petrov,\n\nauf Ihrem Larkfield-Market-Konto liegen noch 143,65 EUR aus Ihren Verkäufen bereit. Die letzte Aktivität auf dem Konto war im September 2020, deshalb wurde das Geld bisher nicht ausgezahlt.\n\nSo holen Sie sich das Geld:\n1. Öffnen Sie die Homing-Seite: {{HOMING_LINK}}\n2. Suchen Sie nach Ihrem Namen.\n3. Laden Sie ein Foto eines Ausweisdokuments hoch.\n\nDanach zahlen wir den Betrag auf Ihr PayPal-Konto aus. Für Sie ist das kostenlos.\n\nWenn das Geld nicht abgeholt wird, müssen wir es später möglicherweise als nicht beanspruchtes Vermögen an den Staat übergeben.\n\nFreundliche Grüße\nIhr Larkfield Market",
+   "english": "Hello Mr. Petrov,\n\nThere are still 143.65 EUR from your sales waiting in your Larkfield Market account. The last activity on the account was in September 2020, so the money has not been paid out yet.\n\nHow to claim it:\n1. Open the Homing page: {{HOMING_LINK}}\n2. Search for your name.\n3. Upload a photo of an identity document.\n\nWe will then pay the amount to your PayPal account. It costs you nothing.\n\nIf the money is not claimed, we may later have to hand it over to the state as unclaimed property.\n\nKind regards\nLarkfield Market",
+   "english_subject": "143.65 EUR is waiting for you",
+   "language": "de",
+   "subject": "Guthaben von 143,65 EUR wartet auf Sie"
+  },
+  "B009": {
+   "body": "Bonjour Youssef,\n\nVous avez 96,00 EUR de gains en attente sur Larkfield Market. Ils n'ont jamais été récupérés ; l'activité de votre compte remonte à avril 2019.\n\nPour les réclamer, c'est simple et gratuit :\n1. Ouvrez la page Homing : {{HOMING_LINK}}\n2. Recherchez votre nom.\n3. Ajoutez une photo d'une pièce d'identité.\n\nL'argent est ensuite versé sur votre compte PayPal. Cela ne vous coûte rien.\n\nSi personne ne réclame cette somme, nous pourrions devoir la transférer à l'État en tant que bien non réclamé.\n\nCordialement,\nL'équipe Larkfield Market",
+   "english": "Hello Youssef,\n\nYou have 96.00 EUR in earnings waiting on Larkfield Market. They were never collected, and your account's last activity was in April 2019.\n\nClaiming them is simple and free:\n1. Open the Homing page: {{HOMING_LINK}}\n2. Search for your name.\n3. Add a photo of an identity document.\n\nThe money is then paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, we may later have to hand it to the state as unclaimed property.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "Your Larkfield Market earnings are waiting (96.00 EUR)",
+   "language": "fr",
+   "subject": "Vos gains Larkfield Market vous attendent (96,00 €)"
+  },
+  "B010": {
+   "body": "Hola, María José:\n\nTenemos 410,50 EUR de tus ventas en Larkfield Market que nunca se cobraron. La última actividad de tu cuenta fue en mayo de 2017.\n\nPuedes reclamar el dinero en la página de Homing: {{HOMING_LINK}}\n\nBusca tu nombre, añade una foto de un documento de identidad y te pagaremos en tu cuenta de PayPal. No tiene ningún coste para ti.\n\nSi nadie reclama este dinero, más adelante podría tener que entregarse al Estado como bien no reclamado.\n\nUn saludo,\nLarkfield Market",
+   "english": "Hello, María José,\n\nWe are holding 410.50 EUR of your earnings from Larkfield Market that were never collected. The last activity on your account was in May 2017.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims this money, it may later have to be handed to the state as unclaimed property.\n\nKind regards,\nLarkfield Market",
+   "english_subject": "You have 410.50 EUR waiting at Larkfield Market",
+   "language": "es",
+   "subject": "Tienes 410,50 EUR esperando en Larkfield Market"
+  },
+  "B011": {
+   "body": "Hi Priya,\n\nYou have $74.25 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in January 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we'd love for you to have it.\n\nThanks,\nLarkfield Market",
+   "english": "Hi Priya,\n\nYou have $74.25 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in January 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we'd love for you to have it.\n\nThanks,\nLarkfield Market",
+   "english_subject": "You have $74.25 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "You have $74.25 waiting from Larkfield Market"
+  },
+  "B012": {
+   "body": "Hello Siobhán Ní Bhriain,\n\nYou have 265.00 EUR in earnings from Larkfield Market that were never collected. The last activity on your account was in August 2018.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property, so we wanted you to know it is there.\n\nWe will never ask for your password, card number or bank login.\n\nBest wishes,\nLarkfield Market",
+   "english": "Hello Siobhán Ní Bhriain,\n\nYou have 265.00 EUR in earnings from Larkfield Market that were never collected. The last activity on your account was in August 2018.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property, so we wanted you to know it is there.\n\nWe will never ask for your password, card number or bank login.\n\nBest wishes,\nLarkfield Market",
+   "english_subject": "265.00 EUR in earnings are waiting for you at Larkfield Market",
+   "language": "en",
+   "subject": "265.00 EUR in earnings are waiting for you at Larkfield Market"
+  },
+  "B013": {
+   "body": "渡辺 健二さま\n\nLarkfield Marketです。2016年11月以降ご利用がないアカウントに、お受け取りいただけていない売上金が$1,022.40あります。\n\n下のHomingのページから、無料で受け取れます。\n1. ご自分のお名前を検索します。\n2. 身分証明書の写真を追加します。\n3. 売上金がお客様のPayPalアカウントに支払われます。\n\n受け取りページ: {{HOMING_LINK}}\n\n手数料はかかりません。パスワード、カード番号、銀行のログイン情報などは一切必要ありません。\n\nどなたも受け取らない場合、この売上金は、のちに未請求財産として国(州)に引き渡される可能性があります。\n\nLarkfield Market",
+   "english": "Dear Kenji Watanabe,\n\nThis is Larkfield Market. Your account has had no activity since November 2016, and $1,022.40 in earnings has never been collected.\n\nYou can claim it for free on the Homing page:\n1. Search for your name.\n2. Add a photo of an identity document.\n3. The money is paid to your PayPal account.\n\nClaim page: {{HOMING_LINK}}\n\nIt costs you nothing. We never need your password, card number or bank login.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nLarkfield Market",
+   "english_subject": "Mr. Watanabe: $1,022.40 in earnings is waiting for you",
+   "language": "ja",
+   "subject": "渡辺 健二さま:お受け取りいただけていない売上金$1,022.40があります"
+  },
+  "B014": {
+   "body": "Hello Olusegun Adeyemi,\n\nWe are holding $48.90 in earnings for you from your sales on Larkfield Market. The last activity on your account was in June 2020, and the money was never collected.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english": "Hello Olusegun Adeyemi,\n\nWe are holding $48.90 in earnings for you from your sales on Larkfield Market. The last activity on your account was in June 2020, and the money was never collected.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english_subject": "You have $48.90 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "You have $48.90 waiting from Larkfield Market"
+  },
+  "B015": {
+   "body": "Olá, Lucas Oliveira Santos,\n\nVocê tem $389,75 em ganhos de vendas no Larkfield Market que ainda não foram recebidos. A última atividade da sua conta foi em 11/2019.\n\nPara receber o valor, acesse a página da Homing neste link: {{HOMING_LINK}}\nLá, você procura o seu nome, adiciona uma foto de um documento de identidade e o valor é enviado para a sua conta PayPal. Não há nenhum custo para você.\n\nSe ninguém reivindicar o valor, ele poderá ter de ser entregue ao Estado como bem não reclamado.\n\nEquipe Larkfield Market",
+   "english": "Hello, Lucas Oliveira Santos,\n\nYou have $389.75 in sales earnings at Larkfield Market that were never collected. The last activity on your account was in November 2019.\n\nTo receive the money, go to the Homing page using this link: {{HOMING_LINK}}\nThere, you search for your name, add a photo of an identity document, and the money is paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nThe Larkfield Market team",
+   "english_subject": "You have $389.75 waiting for you at Larkfield Market",
+   "language": "pt",
+   "subject": "Você tem $389,75 esperando por você no Larkfield Market"
+  },
+  "B016": {
+   "body": "Bonjour Fatima Zahra El Idrissi,\n\nSur votre compte Larkfield Market, 152,00 EUR de gains n'ont jamais été retirés. Votre dernière activité remonte à mars 2018.\n\nVous pouvez récupérer cette somme sur la page Homing : {{HOMING_LINK}}\n\nIl suffit de chercher votre nom, d'ajouter une photo d'une pièce d'identité, puis l'argent est versé sur votre compte PayPal. Cela ne vous coûte rien.\n\nSi personne ne réclame cet argent, il pourrait devoir être remis à l'État comme bien non réclamé.\n\nNous ne vous demanderons jamais de mot de passe, de numéro de carte ni d'identifiants bancaires.\n\nCordialement,\nL'équipe Larkfield Market",
+   "english": "Hello Fatima Zahra El Idrissi,\n\nYour Larkfield Market account has 152.00 EUR in earnings that were never collected. Your last activity was in March 2018.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nJust search for your name, add a photo of an identity document, and the money is paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nWe will never ask for a password, card number or bank login.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "Your Larkfield Market earnings are waiting: 152.00 EUR",
+   "language": "fr",
+   "subject": "Vos gains Larkfield Market vous attendent : 152,00 EUR"
+  },
+  "B017": {
+   "body": "Dobrý den, paní Nováková,\n\nna Vašem účtu na Larkfield Market na Vás čeká 67,80 EUR z prodeje. Výdělky se k Vám nikdy nedostaly a poslední aktivitu na účtu evidujeme v prosinci 2020.\n\nPeníze si můžete vyzvednout na stránce Homing: {{HOMING_LINK}}\nVyhledáte své jméno, přidáte fotografii dokladu totožnosti a částka Vám bude vyplacena na Váš účet PayPal. Vyzvednutí je pro Vás zcela zdarma.\n\nPokud si peníze nikdo nevyzvedne, může se stát, že je budeme muset později předat státu jako nevyzvednutý majetek.\n\nS přátelským pozdravem\nLarkfield Market",
+   "english": "Hello Ms Nováková,\n\nThere is 67.80 EUR waiting for you from your sales on Larkfield Market. These earnings were never collected, and the last activity on your account was in December 2020.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. Claiming it costs you nothing.\n\nIf nobody claims it, we may later have to hand the money over to the state as unclaimed property.\n\nKind regards,\nLarkfield Market",
+   "english_subject": "You have unclaimed earnings of 67.80 EUR",
+   "language": "cs",
+   "subject": "Máte u nás nevyzvednuté výdělky 67,80 EUR"
+  },
+  "B018": {
+   "body": "Hello Sipho,\n\nYou have $530.00 in earnings from your sales on Larkfield Market that were never collected. The last activity on your account was in February 2017.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nWe will never ask for your password, card number or bank login.\n\nThank you,\nLarkfield Market",
+   "english": "Hello Sipho,\n\nYou have $530.00 in earnings from your sales on Larkfield Market that were never collected. The last activity on your account was in February 2017.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nWe will never ask for your password, card number or bank login.\n\nThank you,\nLarkfield Market",
+   "english_subject": "You have $530.00 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "You have $530.00 waiting from Larkfield Market"
+  },
+  "B019": {
+   "body": "Bonjour Camille,\n\nDes gains de 29,95 EUR vous attendent sur votre compte Larkfield Market. Ils n'ont jamais été récupérés, et votre dernière activité remonte à mai 2021.\n\nPour les réclamer, rendez-vous sur la page Homing : {{HOMING_LINK}}\nRecherchez votre nom, ajoutez une photo d'une pièce d'identité, et l'argent sera versé sur votre compte PayPal. Cela ne vous coûte rien.\n\nSi personne ne réclame cette somme, elle pourrait devoir être remise à l'État au titre des biens non réclamés.\n\nCordialement,\nL'équipe Larkfield Market",
+   "english": "Hello Camille,\n\nEarnings of 29.95 EUR are waiting in your Larkfield Market account. They were never collected, and your last activity was in May 2021.\n\nTo claim them, go to the Homing page: {{HOMING_LINK}}\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims this money, it may later have to be handed to the state as unclaimed property.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "You have 29.95 EUR waiting at Larkfield Market",
+   "language": "fr",
+   "subject": "Vous avez 29,95 € en attente chez Larkfield Market"
+  },
+  "B020": {
+   "body": "Ciao Giulia,\n\nsul tuo account Larkfield Market ci sono 812,60 EUR di guadagni che non sono mai stati ritirati. L'ultima attività sul tuo account risale a settembre 2016.\n\nPuoi richiedere la somma sulla pagina di Homing: {{HOMING_LINK}}\n\nBasta cercare il tuo nome, aggiungere la foto di un documento d'identità e il denaro verrà pagato sul tuo conto PayPal. Per te è gratuito.\n\nSe nessuno li richiede, questi fondi potrebbero in seguito dover essere trasferiti allo Stato come beni non reclamati.\n\nUn caro saluto,\nIl team di Larkfield Market",
+   "english": "Hi Giulia,\n\nThere are 812.60 EUR in earnings on your Larkfield Market account that were never collected. The last activity on your account was in September 2016.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nJust search for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nKind regards,\nThe Larkfield Market team",
+   "english_subject": "You have €812.60 waiting for you at Larkfield Market",
+   "language": "it",
+   "subject": "Hai 812,60 € da ritirare su Larkfield Market"
+  },
+  "B021": {
+   "body": "Merhaba Ahmet Yılmaz,\n\nLarkfield Market hesabınızda, henüz tahsil edilmemiş $205,40 tutarında kazancınız bekliyor. Hesabınızdaki son hareket 2018 Ekim ayına ait.\n\nBu parayı Homing sayfasından kolayca alabilirsiniz: adınızı aratın, bir kimlik belgesinin fotoğrafını ekleyin; para PayPal hesabınıza yatırılır. Sizin için hiçbir ücreti yoktur.\n\nBağlantı: {{HOMING_LINK}}\n\nParayı kimse almazsa, ileride sahipsiz mal olarak devlete teslim etmemiz gerekebilir.\n\nSevgiler,\nLarkfield Market",
+   "english": "Hello Ahmet Yılmaz,\n\nYou have $205.40 in uncollected earnings waiting in your Larkfield Market account. The last activity on the account was in October 2018.\n\nYou can claim it easily on the Homing page: search for your name, add a photo of an identity document, and the money is paid to your PayPal account. It costs you nothing.\n\nLink: {{HOMING_LINK}}\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property.\n\nBest wishes,\nLarkfield Market",
+   "english_subject": "Ahmet, you have $205.40 waiting for you",
+   "language": "tr",
+   "subject": "Ahmet, hesabınızda sizi bekleyen $205,40 var"
+  },
+  "B022": {
+   "body": "Hi Rahul,\n\nYou have $1,456.00 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in July 2017.\n\nYou can claim it in a few minutes on the Homing page:\n{{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nWe will never ask for your password, card number, bank login or identity number.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property. We would much rather get it to you.\n\nThank you,\nLarkfield Market",
+   "english": "Hi Rahul,\n\nYou have $1,456.00 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in July 2017.\n\nYou can claim it in a few minutes on the Homing page:\n{{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nWe will never ask for your password, card number, bank login or identity number.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property. We would much rather get it to you.\n\nThank you,\nLarkfield Market",
+   "english_subject": "Rahul, you have $1,456.00 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Rahul, you have $1,456.00 waiting from Larkfield Market"
+  },
+  "B023": {
+   "body": "Hola, Sofía:\n\nTenemos $93.15 de tus ganancias en Larkfield Market que nunca se cobraron. La última actividad de tu cuenta fue en febrero de 2020.\n\nPuedes reclamar el dinero en la página de Homing: {{HOMING_LINK}}\n\nBusca tu nombre, agrega una foto de un documento de identidad y el dinero se pagará a tu cuenta de PayPal. No tiene ningún costo para ti.\n\nSi nadie reclama el dinero, es posible que más adelante tenga que entregarse al Estado como propiedad no reclamada.\n\nUn saludo,\nEl equipo de Larkfield Market",
+   "english": "Hi Sofía,\n\nWe are holding $93.15 of your Larkfield Market earnings that were never collected. The last activity on your account was in February 2020.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nBest wishes,\nThe Larkfield Market team",
+   "english_subject": "You have $93.15 waiting from Larkfield Market",
+   "language": "es",
+   "subject": "Tienes $93.15 esperándote de Larkfield Market"
+  },
+  "B024": {
+   "body": "Hej Jonas,\n\nPå ditt säljarkonto hos Larkfield Market finns det 174,30 EUR i intäkter som aldrig har hämtats ut. Kontots senaste aktivitet var i augusti 2019.\n\nDu kan hämta pengarna via Homing-sidan här: {{HOMING_LINK}}\n\nSå går det till: sök efter ditt namn, lägg till en bild på ett ID-dokument, så betalas pengarna ut till ditt PayPal-konto. Det kostar dig ingenting.\n\nOm ingen hämtar pengarna kan de senare behöva lämnas över till staten som herrelös egendom.\n\nVänliga hälsningar,\nLarkfield Market",
+   "english": "Hi Jonas,\n\nYour seller account at Larkfield Market has EUR 174.30 in earnings that were never collected. The last activity on the account was in August 2019.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nHow it works: search for your name, add a photo of an identity document, and the money is paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nKind regards,\nLarkfield Market",
+   "english_subject": "You have EUR 174.30 waiting for you at Larkfield Market",
+   "language": "sv",
+   "subject": "Du har 174,30 EUR som väntar på dig hos Larkfield Market"
+  },
+  "B025": {
+   "body": "Kia ora Aroha,\n\nYou have $61.00 in earnings from Larkfield Market that were never collected. The last activity on your account was in March 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we'd love for it to reach you first.\n\nWe'll never ask for your password, card number or bank login.\n\nWarm regards,\nLarkfield Market",
+   "english": "Kia ora Aroha,\n\nYou have $61.00 in earnings from Larkfield Market that were never collected. The last activity on your account was in March 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we'd love for it to reach you first.\n\nWe'll never ask for your password, card number or bank login.\n\nWarm regards,\nLarkfield Market",
+   "english_subject": "Aroha, you have $61.00 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Aroha, you have $61.00 waiting from Larkfield Market"
+  },
+  "B026": {
+   "body": "Hello Kwame,\n\nYou have $720.85 in earnings from Larkfield Market that were never collected. The last activity on your account was in April 2017.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nBest wishes,\nLarkfield Market",
+   "english": "Hello Kwame,\n\nYou have $720.85 in earnings from Larkfield Market that were never collected. The last activity on your account was in April 2017.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nBest wishes,\nLarkfield Market",
+   "english_subject": "Earnings are waiting for you at Larkfield Market",
+   "language": "en",
+   "subject": "Earnings are waiting for you at Larkfield Market"
+  },
+  "B027": {
+   "body": "مرحباً ليلى،\n\nلدى Larkfield Market مبلغ 338.00 دولار من أرباحكِ كبائعة لم يتم استلامه. كان آخر نشاط على حسابكِ في يونيو 2018.\n\nيمكنكِ استلام المبلغ بسهولة عبر صفحة Homing: ابحثي عن اسمكِ، وأضيفي صورة لوثيقة هوية، وسيُدفع المبلغ إلى حسابكِ في PayPal. الخدمة مجانية تماماً ولا تدفعين أي رسوم.\n\nرابط الصفحة: {{HOMING_LINK}}\n\nإذا لم يُطالَب بالمبلغ، فقد نضطر لاحقاً إلى تسليمه للدولة كممتلكات غير مطالَب بها.\n\nمع أطيب التحيات،\nفريق Larkfield Market",
+   "english": "Hello Leila,\n\nLarkfield Market is holding $338.00 in seller earnings that were never collected. The last activity on your account was in June 2018.\n\nYou can claim the money easily on the Homing page: search for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It is completely free, and you pay nothing.\n\nLink to the page: {{HOMING_LINK}}\n\nIf nobody claims the money, we may later have to hand it over to the state as unclaimed property.\n\nBest regards,\nThe Larkfield Market team",
+   "english_subject": "You have $338.00 in earnings waiting for you",
+   "language": "ar",
+   "subject": "لديكِ أرباح بقيمة 338.00 دولار في انتظارك"
+  },
+  "B028": {
+   "body": "Hola, Mateo:\n\nTe escribimos de Larkfield Market. Tienes $44.40 de ganancias como vendedor que nunca se cobraron. La última actividad de tu cuenta fue en julio de 2021.\n\nPuedes reclamar el dinero en la página de Homing: {{HOMING_LINK}}\n\nBusca tu nombre, agrega una foto de un documento de identidad y el dinero se pagará a tu cuenta de PayPal. No tiene ningún costo para ti.\n\nSi nadie lo reclama, es posible que más adelante tengamos que entregar el dinero al estado como propiedad no reclamada.\n\nGracias por vender con nosotros.\n\nEl equipo de Larkfield Market",
+   "english": "Hello, Mateo,\n\nThis is Larkfield Market. You have $44.40 in seller earnings that were never collected. The last activity on your account was in July 2021.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, we may later have to hand the money to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english_subject": "You have $44.40 waiting from Larkfield Market",
+   "language": "es",
+   "subject": "Tienes $44.40 esperándote de Larkfield Market"
+  },
+  "B029": {
+   "body": "Hello Eilidh,\n\nWe are holding £189.99 in earnings for you from your time selling on Larkfield Market. Your account has had no activity since October 2019, and the money was never collected.\n\nYou can claim it on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would love to see it reach you.\n\nBest wishes,\nLarkfield Market",
+   "english": "Hello Eilidh,\n\nWe are holding £189.99 in earnings for you from your time selling on Larkfield Market. Your account has had no activity since October 2019, and the money was never collected.\n\nYou can claim it on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would love to see it reach you.\n\nBest wishes,\nLarkfield Market",
+   "english_subject": "Eilidh, you have £189.99 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Eilidh, you have £189.99 waiting from Larkfield Market"
+  },
+  "B030": {
+   "body": "Chào chị Pham Thi Lan,\n\nLarkfield Market đang giữ $122,70 tiền thu nhập bán hàng của chị. Tài khoản của chị hoạt động lần cuối vào tháng 4/2020 và khoản tiền này chưa được chuyển cho chị.\n\nChị có thể nhận tiền trên trang Homing: {{HOMING_LINK}}\n\nChị chỉ cần tìm tên của mình, thêm ảnh một giấy tờ tùy thân, và tiền sẽ được chuyển vào tài khoản PayPal của chị. Chị không phải trả bất kỳ khoản phí nào.\n\nNếu không ai nhận, sau này khoản tiền có thể phải chuyển cho nhà nước dưới dạng tài sản vô chủ.\n\nCảm ơn chị,\nLarkfield Market",
+   "english": "Hello Pham Thi Lan,\n\nLarkfield Market is holding $122.70 in your seller earnings. Your account was last active in April 2020, and this money was never paid out to you.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nJust search for your name, add a photo of an identity document, and the money will be sent to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you,\nLarkfield Market",
+   "english_subject": "You have $122.70 waiting from Larkfield Market",
+   "language": "vi",
+   "subject": "Bạn có $122,70 chưa nhận từ Larkfield Market"
+  },
+  "B031": {
+   "body": "Hei Ingrid,\n\nDet ligger 960,00 EUR i inntjening på kontoen din hos Larkfield Market som aldri er hentet ut. Siste aktivitet på kontoen var i desember 2016.\n\nDu kan hente pengene på Homing-siden her: {{HOMING_LINK}}\n\nSlik gjør du det: Søk etter navnet ditt, legg ved et bilde av et legitimasjonsdokument, så utbetales pengene til PayPal-kontoen din. Det koster deg ingenting.\n\nHvis ingen henter pengene, kan de på sikt måtte overføres til staten som ukrevd eiendom.\n\nVennlig hilsen\nLarkfield Market",
+   "english": "Hi Ingrid,\n\nThere are 960.00 EUR in earnings on your Larkfield Market account that were never collected. The last activity on the account was in December 2016.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nHow it works: search for your name, add a photo of an identity document, and the money is paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nKind regards,\nLarkfield Market",
+   "english_subject": "You have 960.00 EUR waiting for you at Larkfield Market",
+   "language": "nb",
+   "subject": "Du har 960,00 EUR som venter på deg hos Larkfield Market"
+  },
+  "B032": {
+   "body": "Hello Tariq,\n\nYou have $81.60 in earnings from Larkfield Market that were never collected. The last activity on your account was in August 2020.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english": "Hello Tariq,\n\nYou have $81.60 in earnings from Larkfield Market that were never collected. The last activity on your account was in August 2020.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english_subject": "Earnings waiting for you from Larkfield Market",
+   "language": "en",
+   "subject": "Earnings waiting for you from Larkfield Market"
+  },
+  "B033": {
+   "body": "Hi Chloe,\n\nYou have $275.25 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in September 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would hate for you to miss it.\n\nThanks,\nThe Larkfield Market team",
+   "english": "Hi Chloe,\n\nYou have $275.25 in earnings from your Larkfield Market sales that were never collected. The last activity on your account was in September 2021.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property, so we would hate for you to miss it.\n\nThanks,\nThe Larkfield Market team",
+   "english_subject": "Chloe, you have $275.25 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Chloe, you have $275.25 waiting from Larkfield Market"
+  },
+  "B034": {
+   "body": "Hi Grace,\n\nYou have $58.30 in earnings from Larkfield Market that was never collected. Your account's last activity was in November 2020.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english": "Hi Grace,\n\nYou have $58.30 in earnings from Larkfield Market that was never collected. Your account's last activity was in November 2020.\n\nYou can claim it on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you for selling with us.\n\nThe Larkfield Market team",
+   "english_subject": "Grace, you have $58.30 waiting from Larkfield Market",
+   "language": "en",
+   "subject": "Grace, you have $58.30 waiting from Larkfield Market"
+  },
+  "B035": {
+   "body": "Hello Northside Youth Football Club,\n\nYou have 1,388.00 GBP in earnings from Larkfield Market that were never collected. The last activity on your account was in May 2018.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nThank you,\nLarkfield Market",
+   "english": "Hello Northside Youth Football Club,\n\nYou have 1,388.00 GBP in earnings from Larkfield Market that were never collected. The last activity on your account was in May 2018.\n\nYou can claim the money on the Homing page: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, it may later have to be handed to the state as unclaimed property.\n\nThank you,\nLarkfield Market",
+   "english_subject": "Your Larkfield Market earnings are waiting for you",
+   "language": "en",
+   "subject": "Your Larkfield Market earnings are waiting for you"
+  },
+  "B036": {
+   "body": "Hello Hope Valley Animal Rescue Inc,\n\nYou have $2,964.10 in earnings from Larkfield Market that were never collected. The last activity on your account was in September 2017.\n\nYou can claim this money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you,\nLarkfield Market",
+   "english": "Hello Hope Valley Animal Rescue Inc,\n\nYou have $2,964.10 in earnings from Larkfield Market that were never collected. The last activity on your account was in September 2017.\n\nYou can claim this money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims it, the money may later have to be handed to the state as unclaimed property.\n\nThank you,\nLarkfield Market",
+   "english_subject": "Earnings are waiting for you at Larkfield Market",
+   "language": "en",
+   "subject": "Earnings are waiting for you at Larkfield Market"
+  },
+  "B037": {
+   "body": "Hello Lakeshore Community Choir Association,\n\nYou have $415.00 in earnings from Larkfield Market that were never collected. The last activity on your account was in March 2019.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property.\n\nWe would be glad to see it reach you.\n\nThe Larkfield Market team",
+   "english": "Hello Lakeshore Community Choir Association,\n\nYou have $415.00 in earnings from Larkfield Market that were never collected. The last activity on your account was in March 2019.\n\nYou can claim the money on the Homing page here: {{HOMING_LINK}}\n\nSearch for your name, add a photo of an identity document, and the money will be paid to your PayPal account. It costs you nothing.\n\nIf nobody claims the money, we may later have to hand it to the state as unclaimed property.\n\nWe would be glad to see it reach you.\n\nThe Larkfield Market team",
+   "english_subject": "Your Larkfield Market earnings are waiting for you",
+   "language": "en",
+   "subject": "Your Larkfield Market earnings are waiting for you"
+  }
+ },
+ "readings": {
+  "023bbb28a5acb3c6d8138e2b872d0531bafddc7abab06936a80ba88a85021027": {
+   "addresses": [
+    {
+     "city": "Dubai",
+     "country": "",
+     "postcode": "",
+     "region": "",
+     "street": "Al Wasl Rd 220",
+     "whose": "person"
+    }
+   ],
+   "concerns": [
+    "The name field has a pasted-looking white box with text in a different, pixelated font and a different alignment from the rest of the card.",
+    "A partly hidden letter, which looks like the start of a different name, shows at the left edge of the name box, so the original name seems to have been covered.",
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so the card is marked as a demo.",
+    "The name box overlaps the 'DATE OF BIRTH' label area."
+   ],
+   "dates": [
+    {
+     "label": "date of birth",
+     "value": "1981-02-25"
+    },
+    {
+     "label": "expires",
+     "value": "2031-09-30"
+    }
+   ],
+   "document_type": "identity card",
+   "emails": [],
+   "identifiers_present": [
+    "card number"
+   ],
+   "issuer": "Demo Identity Office",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Mohammed Al-Rashid"
+   ],
+   "signs_of_editing": true,
+   "status": "read",
+   "summary": "An identity card from 'Demo Identity Office' showing a name, date of birth, expiry date and an address in Dubai. The name appears to have been overwritten with a box in a different font, and the footer says it is a demo document for an invented person."
+  },
+  "269790d1f47a0e3b484ff23abe570ba7b1def7202d4145c2eb70c0248284480c": {
+   "addresses": [],
+   "concerns": [
+    "The footer reads \"DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE\", so the card says it is a demonstration document and not a real one.",
+    "No postal address is printed on the card.",
+    "The photo area shows a generic placeholder silhouette, not a photograph of a person."
+   ],
+   "dates": [
+    {
+     "label": "date of birth",
+     "value": "1979-03-14"
+    },
+    {
+     "label": "expires",
+     "value": "2031-05-01"
+    }
+   ],
+   "document_type": "identity card",
+   "emails": [],
+   "identifiers_present": [
+    "card number"
+   ],
+   "issuer": "Demo Identity Office",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Tomasz Wiśniewski"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "A demonstration identity card from Demo Identity Office, showing a name, date of birth, expiry date and card number beside a placeholder photo silhouette. A footer on the card says it is an invented person and not valid for any purpose."
+  },
+  "5e71061cdd18f5cfed19ce94503b189930bd14ae9eb1fb1e7748c86e448b8089": {
+   "addresses": [],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so this is a demonstration document and not a real identity card.",
+    "The photo area shows a generic grey person silhouette, not a photograph of a person.",
+    "No address, email or signature is printed on the card."
+   ],
+   "dates": [
+    {
+     "label": "DATE OF BIRTH",
+     "value": "1976-09-12"
+    },
+    {
+     "label": "EXPIRES",
+     "value": "2032-04-30"
+    }
+   ],
+   "document_type": "identity card",
+   "emails": [],
+   "identifiers_present": [
+    "card number"
+   ],
+   "issuer": "Demo Identity Office",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "J. R. Okafor"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "A demo identity card from Demo Identity Office for J. R. Okafor, showing a date of birth, an expiry date and a card number. A footer states it is a demo document for an invented person and not valid for any purpose."
+  },
+  "61e7fb02f36d7762779aaa3a18fe094391a316f5367140aacc084cbea9729856": {
+   "addresses": [
+    {
+     "city": "Kraków",
+     "country": "PL",
+     "postcode": "31-042",
+     "region": "",
+     "street": "Rynek Główny 1",
+     "whose": "issuer"
+    },
+    {
+     "city": "Kraków",
+     "country": "PL",
+     "postcode": "31-147",
+     "region": "",
+     "street": "ul. Długa 12",
+     "whose": "person"
+    }
+   ],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so this is marked as a demonstration document and not a genuine statement.",
+    "The statement date is 2019-05-31, so the statement is old.",
+    "No account number is printed on the statement."
+   ],
+   "dates": [
+    {
+     "label": "Statement date",
+     "value": "2019-05-31"
+    }
+   ],
+   "document_type": "bank account statement",
+   "emails": [
+    "t.wisniewski@example.com"
+   ],
+   "identifiers_present": [],
+   "issuer": "Vistula Demo Savings",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Tomasz Wiśniewski"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "A savings account statement from Vistula Demo Savings addressed to Tomasz Wiśniewski, dated 2019-05-31. It lists an opening balance, card payments, a transfer received and a closing balance in PLN, and the footer says it is a demo document with an invented person."
+  },
+  "6a44ecf618b8a4b441ae43b0db4b276d86592c7118aa3d2a7a370db19f73fd5e": {
+   "addresses": [
+    {
+     "city": "Dublin 4",
+     "country": "IE",
+     "postcode": "D04 X2R7",
+     "region": "",
+     "street": "14 Pembroke Road",
+     "whose": "person"
+    },
+    {
+     "city": "Dublin 2",
+     "country": "IE",
+     "postcode": "",
+     "region": "",
+     "street": "1 Grand Canal Quay",
+     "whose": "issuer"
+    }
+   ],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so this is a demonstration document and not a genuine bill.",
+    "No account number, meter number or payment reference is printed.",
+    "The lower two thirds of the page is blank."
+   ],
+   "dates": [
+    {
+     "label": "Bill date",
+     "value": "2026-10-03"
+    }
+   ],
+   "document_type": "electricity bill",
+   "emails": [],
+   "identifiers_present": [],
+   "issuer": "Liffey Demo Energy",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Ana Brennan"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "An electricity bill from Liffey Demo Energy to Ana Brennan at a Dublin address, dated 2026-10-03. It lists 412 kWh used, a standing charge and a total amount due of EUR 140.02. A footer marks it as a demo document with an invented person."
+  },
+  "899d16c5bb4adf5365dacdb0b5381ecbdc0b9d13f73559399cc83954f64bb47c": {
+   "addresses": [
+    {
+     "city": "Ikoyi, Lagos",
+     "country": "NG",
+     "postcode": "101233",
+     "region": "",
+     "street": "14 Awolowo Rd",
+     "whose": "person"
+    },
+    {
+     "city": "Lagos Island",
+     "country": "NG",
+     "postcode": "",
+     "region": "",
+     "street": "2 Marina Road",
+     "whose": "issuer"
+    }
+   ],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so this is not a genuine bank document.",
+    "The statement date is 2016-06-30, so the statement is old.",
+    "No account number or other identifier is printed.",
+    "The closing balance of NGN 221,810.00 matches the opening balance of NGN 84,210.00 plus the two listed transactions (-12,400.00 and 150,000.00)."
+   ],
+   "dates": [
+    {
+     "label": "Statement date",
+     "value": "2016-06-30"
+    }
+   ],
+   "document_type": "bank account statement",
+   "emails": [
+    "jr.okafor@example.org"
+   ],
+   "identifiers_present": [],
+   "issuer": "Lagoon Demo Bank",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "J. R. Okafor"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "An account statement from Lagoon Demo Bank dated 2016-06-30 for J. R. Okafor, showing an opening balance, a card payment, a transfer received and a closing balance in NGN. A footer marks it as a demo document with an invented person, not valid for any purpose."
+  },
+  "90b51cf431dce8fdf62dd91f35050fb12972bcc2fbe9b75f43cd7bd37cd116cd": {
+   "addresses": [
+    {
+     "city": "Chicago",
+     "country": "US",
+     "postcode": "",
+     "region": "IL",
+     "street": "Registry Office, 1 Demo Plaza",
+     "whose": "issuer"
+    }
+   ],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so this is a demonstration document and not a real certificate.",
+    "The lower half of the page is blank and there is no signature, seal, stamp or certificate number."
+   ],
+   "dates": [
+    {
+     "label": "Date of marriage",
+     "value": "2019-06-15"
+    },
+    {
+     "label": "Registered",
+     "value": "2019-06-17"
+    }
+   ],
+   "document_type": "marriage certificate",
+   "emails": [],
+   "identifiers_present": [],
+   "issuer": "Demo Civil Registry",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Ana Kowalski",
+    "Liam Brennan",
+    "Ana Brennan"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "A certificate of marriage from Demo Civil Registry. It records the marriage of Ana Kowalski, who became Ana Brennan, and Liam Brennan in Chicago, Illinois on 2019-06-15, registered on 2019-06-17. A footer marks it as a demo document that is not valid for any purpose."
+  },
+  "c875fdb24e2042881cecc108c138fdc3b6ecc1be0a91ac5f0e317f256b3530db": {
+   "addresses": [],
+   "concerns": [
+    "The footer reads \"DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE\", so the card is marked as a demonstration document and is not a genuine ID.",
+    "No address is printed on the card.",
+    "The photo area shows a generic placeholder silhouette, not a real photograph."
+   ],
+   "dates": [
+    {
+     "label": "date of birth",
+     "value": "1988-11-02"
+    },
+    {
+     "label": "expires",
+     "value": "2030-08-19"
+    }
+   ],
+   "document_type": "identity card",
+   "emails": [],
+   "identifiers_present": [
+    "card number"
+   ],
+   "issuer": "Demo Identity Office",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Ana Brennan"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "A demo identity card from Demo Identity Office for Ana Brennan, showing a date of birth, an expiry date and a card number. A footer states it is a demo document for an invented person and not valid for any purpose."
+  },
+  "f066fe30719e749e244a2f43dad5169462c57e390d183f5585a0fe7b182c2624": {
+   "addresses": [
+    {
+     "city": "Vancouver",
+     "country": "CA",
+     "postcode": "V6H 1C1",
+     "region": "BC",
+     "street": "1450 W 7th Ave",
+     "whose": "person"
+    }
+   ],
+   "concerns": [
+    "The footer reads 'DEMO DOCUMENT · INVENTED PERSON · NOT VALID FOR ANY PURPOSE', so the card says it is not a genuine identity document.",
+    "The photo area shows a generic grey silhouette placeholder, not a photograph of a person.",
+    "The issuer name is 'Demo Identity Office', which does not identify a real issuing authority."
+   ],
+   "dates": [
+    {
+     "label": "date of birth",
+     "value": "1992-01-09"
+    },
+    {
+     "label": "expires",
+     "value": "2032-02-11"
+    }
+   ],
+   "document_type": "identity card",
+   "emails": [],
+   "identifiers_present": [
+    "card number"
+   ],
+   "issuer": "Demo Identity Office",
+   "legible": true,
+   "marked_sample": true,
+   "names": [
+    "Wei Zhang"
+   ],
+   "signs_of_editing": false,
+   "status": "read",
+   "summary": "An identity card from 'Demo Identity Office' showing a name, date of birth, expiry date, card number and a Vancouver address. A footer on the card states it is a demo document for an invented person and not valid for any purpose."
+  }
+ }
+}

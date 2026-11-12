@@ -1,0 +1,18 @@
+__pycache__/
+.venv/
+node_modules/
+web/dist/
+web/shots/
+.env
+.pytest_cache/
+
+# local databases, uploaded documents and generated claim forms
+data/registers.duckdb
+data/*.sqlite
+data/*.sqlite-*
+data/files/
+data/uploads/
+data/claims/
+
+# the downloaded state files (large; see README for where they come from)
+data/downloads/

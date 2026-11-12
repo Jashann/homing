@@ -1,0 +1,45 @@
+{
+  "note": "Seller payouts that Larkfield Market (invented) sent from its PayPal sandbox account to made-up seller addresses at example.com. Nobody can collect them, so PayPal holds them as UNCLAIMED. Written by scripts/seed_uncollected.py; read by POST /api/import/paypal.",
+  "business": "Larkfield Market",
+  "payouts": [
+    {
+      "seller": "Elena Marchetti",
+      "city": "Bologna",
+      "country": "IT",
+      "receiver": "elena.marchetti.ceramics@example.com",
+      "amount": "18.50",
+      "currency": "USD",
+      "sender_batch_id": "larkfield-sellers-2026-11-12-1",
+      "payout_batch_id": "AUGWEZN393SEW",
+      "sent_at": "2026-11-12T08:09:51+00:00",
+      "payout_item_id": "P9CCZKAJZWZKY",
+      "status_seen": "UNCLAIMED"
+    },
+    {
+      "seller": "Samuel Owusu",
+      "city": "Kumasi",
+      "country": "GH",
+      "receiver": "samuel.owusu.prints@example.com",
+      "amount": "27.30",
+      "currency": "USD",
+      "sender_batch_id": "larkfield-sellers-2026-11-12-2",
+      "payout_batch_id": "UTWPGK2BB7UQL",
+      "sent_at": "2026-11-12T08:09:51+00:00",
+      "payout_item_id": "8Q798EY279L28",
+      "status_seen": "UNCLAIMED"
+    },
+    {
+      "seller": "Freya Lindahl",
+      "city": "Malmö",
+      "country": "SE",
+      "receiver": "freya.lindahl.knits@example.com",
+      "amount": "42.00",
+      "currency": "USD",
+      "sender_batch_id": "larkfield-sellers-2026-11-12-3",
+      "payout_batch_id": "RJMCKQVWD5TV8",
+      "sent_at": "2026-11-12T08:09:52+00:00",
+      "payout_item_id": "P9XWZE6S3HJSE",
+      "status_seen": "UNCLAIMED"
+    }
+  ]
+}

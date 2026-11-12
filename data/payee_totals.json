@@ -1,0 +1,176 @@
+{
+  "as_of": "2026-11-04",
+  "source": "California State Controller, unclaimed property records, file dated 2026-11-04",
+  "source_url": "https://www.sco.ca.gov/upd_download_property_records.html",
+  "amount_field": "CURRENT_CASH_BALANCE (USD); blank values loaded as 0, no nulls",
+  "holders": "all",
+  "payee_records": 44698123,
+  "payee_total": "3044769901.31",
+  "file_records": 95425821,
+  "file_total": "15166339255.91",
+  "share_of_file_total": 0.2008,
+  "property_types": [
+    {
+      "code": "MS11",
+      "description": "REFUNDS DUE",
+      "records": 8266922,
+      "total": "476543608.34"
+    },
+    {
+      "code": "MS16",
+      "description": "MISC OUTSTANDING CHECKS",
+      "records": 5691631,
+      "total": "427601051.42"
+    },
+    {
+      "code": "MS08",
+      "description": "ACCOUNTS PAYABLE",
+      "records": 4176705,
+      "total": "411832345.26"
+    },
+    {
+      "code": "MS09",
+      "description": "CREDIT BAL -  ACCTS RECEIVABLE",
+      "records": 10742149,
+      "total": "345727301.69"
+    },
+    {
+      "code": "MS01",
+      "description": "WAGES, PAYROLL, SALARIES",
+      "records": 4587982,
+      "total": "321299507.03"
+    },
+    {
+      "code": "CK13",
+      "description": "VENDOR CHECKS",
+      "records": 1187596,
+      "total": "189994891.75"
+    },
+    {
+      "code": "MS05",
+      "description": "CUSTOMER OVERPAYMENTS",
+      "records": 4314880,
+      "total": "158641217.08"
+    },
+    {
+      "code": "79",
+      "description": "Non Standard NAUPA Code for - Refunds",
+      "records": 879901,
+      "total": "148942154.61"
+    },
+    {
+      "code": "MI02",
+      "description": "ROYALTIES",
+      "records": 768993,
+      "total": "121544380.54"
+    },
+    {
+      "code": "UT03",
+      "description": "REFUNDS OR REBATES",
+      "records": 1678024,
+      "total": "89906035.34"
+    },
+    {
+      "code": "85",
+      "description": "Non Standard NAUPA Code for - Vendor payments",
+      "records": 270877,
+      "total": "85971661.04"
+    },
+    {
+      "code": "MS02",
+      "description": "COMMISSIONS",
+      "records": 699527,
+      "total": "51961190.37"
+    },
+    {
+      "code": "81",
+      "description": "Non Standard NAUPA Code for - Salaries/wages",
+      "records": 263780,
+      "total": "51109198.32"
+    },
+    {
+      "code": "61",
+      "description": "Non Standard NAUPA Code for - Credit balances",
+      "records": 218115,
+      "total": "46852171.61"
+    },
+    {
+      "code": "MS04",
+      "description": "PAYMENTS FOR GOODS & SERVICES",
+      "records": 229227,
+      "total": "27706112.48"
+    },
+    {
+      "code": "CK12",
+      "description": "CREDIT CHECKS OR MEMOS",
+      "records": 390660,
+      "total": "25923757.50"
+    },
+    {
+      "code": "80",
+      "description": "Non Standard NAUPA Code for - Royalties/residuals",
+      "records": 61748,
+      "total": "21003562.31"
+    },
+    {
+      "code": "CK10",
+      "description": "EXPENSE CHECKS",
+      "records": 70176,
+      "total": "20080388.16"
+    },
+    {
+      "code": "59",
+      "description": "Non Standard NAUPA Code for - Commissions",
+      "records": 80223,
+      "total": "12335901.52"
+    },
+    {
+      "code": "MI03",
+      "description": "OVERRIDING ROYALTIES",
+      "records": 16679,
+      "total": "2879905.51"
+    },
+    {
+      "code": "MI09",
+      "description": "MINIMUM ROYALTIES",
+      "records": 23554,
+      "total": "2492488.77"
+    },
+    {
+      "code": "MS07",
+      "description": "UNREFUNDED OVERCHARGES",
+      "records": 55210,
+      "total": "1921622.35"
+    },
+    {
+      "code": "MS10",
+      "description": "DISCOUNTS DUE",
+      "records": 15226,
+      "total": "984187.32"
+    },
+    {
+      "code": "CK14",
+      "description": "CHECKS WRITTEN OFF TO INCOME",
+      "records": 3844,
+      "total": "619313.26"
+    },
+    {
+      "code": "MI08",
+      "description": "SHUT-IN ROYALTIES",
+      "records": 3752,
+      "total": "517602.12"
+    },
+    {
+      "code": "72",
+      "description": "Non Standard NAUPA Code for - Layaways deposits",
+      "records": 742,
+      "total": "378345.61"
+    }
+  ],
+  "check": {
+    "query": "holder_name like '%PAYPAL%'",
+    "records": 2054035,
+    "total": "125083033.46",
+    "matches_readme": true
+  }
+}
